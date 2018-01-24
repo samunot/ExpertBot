@@ -9,15 +9,15 @@
 * Vikas Pandey (vrpandey)
 * Toshal Phene (tphene)
 
-[Design Document](https://github.ncsu.edu/vdatla/SEBot/blob/master/DESIGN.md)
+[Design Document](https://github.com/samunot/ExpertBot/blob/master/DESIGN.md)
 
-[MileStone 2](https://github.ncsu.edu/vdatla/SEBot/blob/master/BOT.md)
+[MileStone 2](https://github.com/samunot/ExpertBot/blob/master/BOT.md)
 
-[MileStone 3](https://github.ncsu.edu/vdatla/SEBot/blob/master/SERVICE.md)
+[MileStone 3](https://github.com/samunot/ExpertBot/blob/master/SERVICE.md)
 
-[MileStone 4](https://github.ncsu.edu/vdatla/SEBot/blob/master/DEPLOY.md)
+[MileStone 4](https://github.com/samunot/ExpertBot/blob/master/DEPLOY.md)
 
-[MileStone 5](https://github.ncsu.edu/vdatla/SEBot/blob/master/REPORT.md)
+[MileStone 5](https://github.com/samunot/ExpertBot/blob/master/REPORT.md)
 
 Join Slack group using this [link](https://join.slack.com/t/bottest1993/shared_invite/enQtMjc5Nzg5NzgwMzU4LWM4YjUwMGMwYzEwYWVjMjgxYjg5MWI1ZjA1YTRiOGI1YjcyMjliZDAyNTU5ODVlYTFmOWVjZjYzZTJkZmJlNTg)
 
@@ -29,14 +29,14 @@ Join Slack group using this [link](https://join.slack.com/t/bottest1993/shared_i
 * Note: Make sure the Ec2 instance has python2 installed else Ansible will not be able to establish a connection to EC2
 * Get the private key of your instance and paste it in the same location as inventory file.
 * Use chmod 400 <keyname.pem> to give appropriate permissions
-* Copy the setup.yml ansible playbook from the git location https://github.ncsu.edu/vdatla/SEBot/tree/master/deploy and paste it in the same location as inventory file.
+* Copy the setup.yml ansible playbook from the git location https://github.com/samunot/ExpertBot/tree/master/deploy and paste it in the same location as inventory file.
 * Run the Ansible playbook using the command ansible-playbook assign.yml -i inventory -e 'username=<gitusernam>' -e 'password=<gitpassword>'. Since SEBot is in a private repository, TAs have to enter their ncsu git username and password as parameters to the script.
 
 [Deploy ScreenCast](https://www.youtube.com/watch?v=L7linVqQbnE&feature=youtu.be)
 
 [Use Case ScreenCast](https://www.youtube.com/watch?v=i5eZK391oW0&feature=youtu.be)
 
-[Worksheet](https://github.ncsu.edu/vdatla/SEBot/blob/master/WORKSHEET.md)
+[Worksheet](https://github.com/samunot/ExpertBot/blob/master/WORKSHEET.md)
 
 <h3>acceptance test instructions</h3>
 
